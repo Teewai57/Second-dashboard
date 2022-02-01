@@ -24,16 +24,19 @@ body{
     background-color: white;
     box-sizing: border-box;
     padding: 5px;
+    padding-bottom: 20px;
+    padding-left: 15px;
 }
 .white_box h4{
     padding-top: 10px;
 }
 .white_box h2{
     padding-top: 10px;
+    padding-bottom: 10px;
 }
-.progress{
+/* .progress{
     padding-top: 10px;
-}
+} */
 .sidebar_icon div{
     
     text-align: center;
