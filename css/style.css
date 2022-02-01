@@ -25,6 +25,15 @@ body{
     box-sizing: border-box;
     padding: 5px;
 }
+.white_box h4{
+    padding-top: 10px;
+}
+.white_box h2{
+    padding-top: 10px;
+}
+.progress{
+    padding-top: 10px;
+}
 .sidebar_icon div{
     
     text-align: center;
