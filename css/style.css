@@ -1,6 +1,10 @@
 body{
     background-color: lightgrey;
 }
+.container-fluid{
+    width: 100%;
+    overflow-x: hidden;
+}
 .image1{
     width: 40px;
     height: 40px;
@@ -12,13 +16,29 @@ body{
 .navbar-nav li{
     padding-right: 12px;
 }
+.col-md-1{
+    height: auto;
+}
 .sidebar_icon{
+    height: ;
     width: 60px; 
     margin-top: -15px;
     background-color: white; 
     color: grey;
      font-size: 22px;
     
+}
+@media (max-width:790px){
+    .content{
+        padding-left: 40px;
+    }
+}
+.col-md-4{
+    margin-top: 10px;
+}
+.first_row{
+    margin-top: 40px;
+    margin-right: 10px;
 }
 .white_box{
     background-color: white;
@@ -74,4 +94,11 @@ body{
     height: 120px;
     background-color: rgb(228, 228, 238);
     margin-bottom: 0;
+}
+.box1,.box2,.box3,.box4{
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    margin-right: 30px;
+    margin-top: 20px;
 }
