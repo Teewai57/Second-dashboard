@@ -96,9 +96,14 @@ body{
     margin-bottom: 0;
 }
 .box1,.box2,.box3,.box4{
-    width: 300px;
+    width: 270px;
     height: 200px;
     background-color: red;
-    margin-right: 30px;
+    margin-right: 20px;
     margin-top: 20px;
+}
+.clock{
+    color: blue; 
+    font-size: 100px !important;
+    
 }
