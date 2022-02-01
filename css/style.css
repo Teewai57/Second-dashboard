@@ -110,11 +110,17 @@ body{
     /* margin-right: 20px; */
     /* margin-top: 20px; */
 }
+.box2{
+    background-color: rgb(6, 6, 104);
+    height: 120px;
+}
 .blue_clock{
-    width: 330px !important;
+    /* width: 330px !important; */
     height: 150px !important;
-    margin-bottom: px !important;
+    /* margin-bottom: px !important; */
     /* align-self: center; */
+    margin-left: 40px;
+    /* margin-right: 50px ; */
 }
 .first_box{
     padding: 0;
