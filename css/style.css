@@ -40,6 +40,10 @@ body{
     margin-top: 40px;
     margin-right: 10px;
 }
+.second_row{
+    margin-right: 10px;
+    margin-top: 20px;
+}
 .white_box{
     background-color: white;
     box-sizing: border-box;
@@ -95,15 +99,33 @@ body{
     background-color: rgb(228, 228, 238);
     margin-bottom: 0;
 }
-.box1,.box2,.box3,.box4{
-    width: 270px;
-    height: 200px;
-    background-color: red;
-    margin-right: 20px;
-    margin-top: 20px;
+.box1{
+    /* width: 270px; */
+    /* height: 200px; */
+    background-color:#0b93f9;
+    padding: 0;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    /* margin-right: 20px; */
+    /* margin-top: 20px; */
 }
-.clock{
-    color: blue; 
-    font-size: 100px !important;
-    
+.blue_clock{
+    width: 330px !important;
+    height: 150px !important;
+    margin-bottom: px !important;
+    /* align-self: center; */
+}
+.first_box{
+    padding: 0;
+    height: 300px;
+    background-color: white;
+}
+
+.clock_image{
+   margin-bottom: 20px !important;
+   /* padding: 0; */
+   align-self: center;
+   /* margin-right: 10px; */
+   /* background-color: white; */
 }
