@@ -10,3 +10,28 @@
 .navbar-nav li{
     padding-right: 12px;
 }
+.sidebar_icon{
+    width: 60px; 
+    height: 300px; 
+    background-color: white; 
+    color: grey;
+     font-size: 22px;
+    
+}
+.sidebar_icon div{
+    
+    text-align: center;
+    margin-top: 15px;
+}
+.image{
+    width: 30px; 
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 40px;
+    
+}
+.image_cont{
+    width: 60px;
+    height: 120px;
+    background-color: rgb(228, 228, 238);
+}
