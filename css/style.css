@@ -190,9 +190,9 @@ sup{
    position: relative;
    bottom: 50px;
 }
-.blacktext{
-    color: black;
-    text-align: center;
+.second_row.blacktext {
+    color: red !important;
+     text-align: center; 
     
 }
 .justify{
