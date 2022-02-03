@@ -5,6 +5,11 @@ body{
     width: 100%;
     overflow-x: hidden;
 }
+sup{
+    font-size: 6px;
+    /* position: relative;
+    bottom: 100px; */
+}
 .image1{
     width: 40px;
     height: 40px;
@@ -25,8 +30,7 @@ body{
     margin-top: -15px;
     background-color: white; 
     color: grey;
-     font-size: 22px;
-    
+     font-size: 22px;   
 }
 @media (max-width:790px){
     .content{
@@ -62,11 +66,16 @@ body{
     /* font-size: 16px; */
     color: rgb(82, 81, 81);
 }
+.forty_five{
+    color: rgb(252, 167, 10);
+}
 .eighty_five{
-    margin-left: 310px;
+    margin-left: 280px;
+    color: rgb(250, 89, 60);
 }
 .sixty{
     margin-left: 100px;
+    color: green;
 }
 .white_box p{
     text-align: center;
@@ -189,4 +198,17 @@ body{
     color: black;
     text-align: center;
     
+}
+.justify{
+    visibility: hidden;
+}
+@media (max-width: 768px) {
+    .red_box h5{
+        font-size: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .justify{
+        visibility: visible;
+    }
 }
