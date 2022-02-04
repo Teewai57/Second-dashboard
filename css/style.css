@@ -64,17 +64,24 @@ sup{
 }
 .forty_five{
     text-align: center;
+    position: relative;
+    top: 10px;
     color: rgb(252, 167, 10);
 }
 .eighty_five{
     text-align: end;
     padding-right: 20px;
+    position: relative;
+    top: 10px;
+    
     /* margin-left: 250px; */
     color: rgb(250, 89, 60);
 }
 .sixty{
     text-align: center;
     margin-left: 100px;
+    position: relative;
+    top: 10px;
     color: green;
 }
 /* .progress{
