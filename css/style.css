@@ -25,7 +25,7 @@ sup{
     height: auto;
 }
 .sidebar_icon{
-    height: 600px;
+    height: auto;
     width: 60px; 
     margin-top: -15px;
     background-color: white; 
@@ -113,7 +113,7 @@ sup{
 .box1{
     background-color:#0b93f9;
     padding: 0;
-    padding-bottom: 70px;
+    padding-bottom: 90px;
     padding-left: 15px;
     box-sizing: border-box;
 
@@ -129,12 +129,12 @@ sup{
 }
 .first_box{
     padding: 0;
-    height: 320px;
+    height: 370px;
     background-color: white;
 }
 .third_box{
     padding: 0;
-    height: 320px;
+    height: 370px;
     background-color: white;
 }
 
@@ -166,6 +166,7 @@ margin-top: 10px;
     text-align: center;
     padding: 6px;
     color:navy;
+    height: 180px;
     
     
 }
@@ -178,6 +179,7 @@ margin-top: 10px;
     text-align: center;
     padding: 6px;
     color: green;
+    height: 180px;
 }
 .orange_box{
     background-color: rgb(255, 115, 0);
@@ -185,6 +187,7 @@ margin-top: 10px;
     text-align: center;
     padding: 6px;
     color: rgb(255, 115, 0);
+    height: 180px;
 }
 .red_box{
     background-color: rgb(248, 51, 16);
@@ -192,6 +195,7 @@ margin-top: 10px;
     text-align: center;
     padding: 6px;
     color: rgb(248, 51, 16);
+    height: 180px;
 }
 
 .clock_image{
@@ -208,11 +212,20 @@ bottom: 40px;
 .justify{
     visibility: hidden;
 }
+.black-text h4{
+    color: rgba(3, 179, 179, 0.74);
+}
 @media (max-width:) {
-    .eighty_five{
+    /* .eighty_five{
         margin-left: 200px;
     }
-    
+     */
+}
+@media (max-width:1024px) {
+    .bcontent{
+        font-size: 15px;
+        
+    }
 }
 @media (max-width:425px) {
     .col-10{
