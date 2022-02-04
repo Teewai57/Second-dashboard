@@ -63,21 +63,20 @@ sup{
     color: rgb(82, 81, 81);
 }
 .forty_five{
+    text-align: center;
     color: rgb(252, 167, 10);
 }
 .eighty_five{
-    margin-left: 250px;
+    text-align: end;
+    padding-right: 20px;
+    /* margin-left: 250px; */
     color: rgb(250, 89, 60);
 }
 .sixty{
+    text-align: center;
     margin-left: 100px;
     color: green;
 }
-.white_box p{
-    text-align: center;
-    margin-bottom: 0px;
-}
-
 /* .progress{
     padding-top: 10px;
 } */
@@ -190,11 +189,11 @@ sup{
    position: relative;
    bottom: 50px;
 }
-.second_row.blacktext {
-    color: red !important;
-     text-align: center; 
-    
-}
+/* .black_text {
+padding: 0;
+position: relative;
+bottom: 40px;
+} */
 .justify{
     visibility: hidden;
 }
