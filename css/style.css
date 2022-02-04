@@ -70,7 +70,7 @@ sup{
 }
 .eighty_five{
     text-align: end;
-    padding-right: 20px;
+    padding-right: 25px;
     position: relative;
     top: 10px;
     
@@ -153,8 +153,10 @@ sup{
     height: 50px;
     border-radius: 25px;
     background-color: white;
-    align-self: center;
-
+    padding-top: 15px;
+    /* color: #0b93f9 !important; */
+     text-align: center;
+margin-top: 9px;
     
 }
 .blue_box{
@@ -172,21 +174,21 @@ sup{
 .green_box{
     background-color: green;
     text-align: center;
-    padding: 5px;
+    padding: 3px;
     color: green;
 }
 .orange_box{
     background-color: rgb(255, 115, 0);
     margin-top: 5px;
     text-align: center;
-    padding: 5px;
+    padding: 3px;
     color: rgb(255, 115, 0);
 }
 .red_box{
     background-color: rgb(248, 51, 16);
     margin-top: 5px;
     text-align: center;
-    padding: 5px;
+    padding: 3px;
     color: rgb(248, 51, 16);
 }
 
