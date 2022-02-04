@@ -129,18 +129,20 @@ sup{
 }
 .first_box{
     padding: 0;
-    height: 300px;
+    height: 320px;
     background-color: white;
 }
 .third_box{
     padding: 0;
-    height: 300px;
+    height: 320px;
     background-color: white;
 }
 
 .user{
     width: 100px;
     height: 100px;
+    border: 2px solid rgb(150, 150, 150);
+    border-radius: 50px;
     /* margin-left: 120px; */
 }
 .user1{
@@ -156,13 +158,13 @@ sup{
     padding-top: 15px;
     /* color: #0b93f9 !important; */
      text-align: center;
-margin-top: 9px;
+margin-top: 10px;
     
 }
 .blue_box{
     background-color: navy;
     text-align: center;
-    padding: 3px;
+    padding: 6px;
     color:navy;
     
     
@@ -174,21 +176,21 @@ margin-top: 9px;
 .green_box{
     background-color: green;
     text-align: center;
-    padding: 3px;
+    padding: 6px;
     color: green;
 }
 .orange_box{
     background-color: rgb(255, 115, 0);
     margin-top: 5px;
     text-align: center;
-    padding: 3px;
+    padding: 6px;
     color: rgb(255, 115, 0);
 }
 .red_box{
     background-color: rgb(248, 51, 16);
     margin-top: 5px;
     text-align: center;
-    padding: 3px;
+    padding: 6px;
     color: rgb(248, 51, 16);
 }
 
