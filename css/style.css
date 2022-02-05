@@ -285,8 +285,48 @@ align-self: center;
         right: 15px;
     }
 }
-@media (max-width:1024px) {
-   
+@media (max-width:375px) {
+    .blacktext_1{
+        position: relative;
+        right: 15px;
+    }
+    .blacktext_2{
+        position: relative;
+        right: 28px;
+    }
+    .blacktext_3{
+        position: relative;
+        right: 35px;
+    }
+    .blacktext_3 p{
+        position: relative;
+        right: 40px;
+    }
+}
+@media (max-width:320px) {
+   .black-text h4{
+       font-size: 15px;
+   }
+   .black-text p{
+       font-size: 10px;
+   }
+   .blacktext_1{
+       position: relative;
+       right: 15px;
+   }
+   .blacktext_3 p{
+    position: relative;
+    right: 20px;
+    text-align: center;
+   }
+   .blacktext_2{
+       position: relative;
+       right: 30px;
+   }
+   .blacktext_3{
+       position: relative;
+       right: 40px;
+   }
 }
 @media (max-width:425px) {
     .col-10{
