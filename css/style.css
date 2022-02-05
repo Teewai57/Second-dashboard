@@ -229,12 +229,12 @@ bottom: 40px;
 .blacktext_2{
     text-align: center;
     align-items: center;
-    padding-left: 24px;
+    padding-left: 28px;
 }
 .blacktext_3{
     text-align: end;
     align-self: center;
-    padding-left: 10px;
+    padding-left: 30px;
 }
 .blacktext_3 p{
     position: relative;
@@ -272,7 +272,7 @@ align-self: center;
         font-size: 20px;
     }
     .black-text p{
-        font-size: 13px;
+        font-size: 12px;
         
     }
     .blacktext_3{
@@ -292,7 +292,7 @@ align-self: center;
     }
     .blacktext_2{
         position: relative;
-        right: 28px;
+        right: 30px;
     }
     .blacktext_3{
         position: relative;
@@ -342,6 +342,20 @@ align-self: center;
 @media (max-width: 768px) {
     .colored_boxes h5{
         font-size: 13px;
+    }
+}
+@media (max-width:320px) {
+    .blue_clock{
+        /* text-align: center; */
+        align-self: center;
+        
+    }
+}
+@media (max-width:768px) {
+    .blue_clock{
+        /* padding-right: 20px; */
+        position: relative;
+        right: 40px;
     }
 }
 @media (max-width: 768px) {
