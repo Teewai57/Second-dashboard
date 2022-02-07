@@ -214,40 +214,40 @@ bottom: 40px;
 }
 .black-text h4{
     color: rgba(3, 179, 179, 0.74);
-    position: relative;
-    bottom: 15px;
+    /* position: relative; */
+    /* bottom: 15px; */
 }
 .blacktext_1{
-    text-align: start;
-    padding-left: 35px;
+    /* text-align: start; */
+    /* padding-left: 35px; */
     
 }
 .blacktext_1 p{
-    position: relative;
-    right: 20px;
+    /* position: relative; */
+    /* right: 20px; */
 }
 .blacktext_2{
-    text-align: center;
-    align-items: center;
-    padding-left: 28px;
+    /* text-align: center; */
+    /* align-items: center; */
+    /* padding-left: 28px; */
 }
 .blacktext_3{
-    text-align: end;
-    align-self: center;
-    padding-left: 30px;
+    /* text-align: end; */
+    /* align-self: center; */
+    /* padding-left: 30px; */
 }
 .blacktext_3 p{
-    position: relative;
-    left: 20px;
+    /* position: relative; */
+    /* left: 20px; */
 }
 .bcontent p{
 color: rgb(143, 143, 143);
-position: relative;
-bottom: 20px;
-margin-left: 10px;
+/* position: relative; */
+/* bottom: 20px; */
+/* margin-left: 10px; */
 font-size: 15px;
-text-align: center;
-align-self: center;
+/* text-align: center; */
+/* align-self: center; */
 }
 @media (max-width:) {
     /* .eighty_five{
@@ -277,35 +277,35 @@ align-self: center;
     }
     .blacktext_3{
         /* padding-right: 60px; */
-        position: relative;
-        right: 12px;
+        /* position: relative; */
+        /* right: 12px; */
     }
     .blacktext_2{
-        position: relative;
-        right: 15px;
+        /* position: relative; */
+        /* right: 15px; */
     }
 }
 @media (max-width:375px) {
     .blacktext_1{
-        position: relative;
-        right: 15px;
+        /* position: relative; */
+        /* right: 15px; */
     }
     .blacktext_2{
-        position: relative;
-        right: 20px;
+        /* position: relative; */
+        /* right: 20px; */
     }
     .blacktext_3{
-        position: relative;
-        right: 35px;
+        /* position: relative; */
+        /* right: 35px; */
     }
     .blacktext_3 p{
-        position: relative;
-        right: 40px;
+        /* position: relative; */
+        /* right: 40px; */
     }
 }
 @media (max-width:425px) {
     .blacktext_3{
-        position: relative;
+        /* position: relative; */
         /* padding-right: 10px; */
     }
 }
@@ -317,22 +317,32 @@ align-self: center;
        font-size: 10px;
    }
    .blacktext_1{
-       position: relative;
-       right: 15px;
+       text-align: center;
+       /* position: relative; */
+       /* right: 15px; */
    }
    .blacktext_3 p{
-       padding-right: 5px;
+    text-align: center;
+       /* padding-right: 5px; */
     /* position: relative;
     right: 10px !important; */
     /* text-align: center; */
    }
    .blacktext_2{
-       position: relative;
-       right: 30px;
+    text-align: center;
+       /* position: relative; */
+       /* right: 30px; */
    }
    .blacktext_3{
-       position: relative;
-       right: 55px;
+    text-align: center;
+       /* position: relative; */
+       /* right: 55px; */
+   }
+
+   .bcontent{
+       display: flex;
+       justify-content: space-evenly;
+
    }
 }
 @media (max-width:425px) {
@@ -343,7 +353,7 @@ align-self: center;
 }
 @media (max-width:790px){
     .content{
-        /* padding-left: 40px; */
+        padding-left: 30px;
     }
 }
 @media (max-width: 768px) {
@@ -361,8 +371,8 @@ align-self: center;
 @media (max-width:768px) {
     .blue_clock{
         /* padding-right: 20px; */
-        position: relative;
-        right: 40px;
+        /* position: relative; */
+        /* right: 40px; */
     }
 }
 @media (max-width: 768px) {
